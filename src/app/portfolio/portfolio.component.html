@@ -1,0 +1,68 @@
+
+
+<section class="pt-5">
+  <div class="container position-relative">
+    <div class="row gy-3 mb-4">
+      <div class="col-12 pt-5 w-100">
+        <div class="inner text-center w-50 m-4 mx-auto" >
+          <h2 class="fs-sm-6 fs-md-2 fs-lg-1 fw-bold por-color">PORTFOLIO COMPONENT</h2>
+          <div class="icon position-relative">
+            <i class="fa-solid fa-star fs-3 por-color star-effect text-center"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="inner position-relative rounded-3 shadow">
+          <img src="./assets/port1.png" class="w-100 rounded-3" alt="" >
+          <div class="layer position-absolute d-flex justify-content-center align-items-center rounded-3" (click)="showModel('./assets/port1.png')" >
+            <i class="fa-solid fa-plus text-white fs-1"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="inner position-relative rounded-3 shadow">
+          <img src="./assets/port2.png" class="w-100 rounded-3" alt="">
+          <div class="layer position-absolute d-flex justify-content-center align-items-center rounded-3"  (click)="showModel('./assets/port2.png')">
+            <i class="fa-solid fa-plus text-white fs-1"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="inner position-relative rounded-3 shadow">
+          <img src="./assets/port3.png" class="w-100 rounded-3" alt="">
+          <div class="layer position-absolute d-flex justify-content-center align-items-center rounded-3"  (click)="showModel('./assets/port3.png')">
+            <i class="fa-solid fa-plus text-white fs-1"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="inner position-relative rounded-3 shadow">
+          <img src="./assets/port3.png" class="w-100 rounded-3" alt="">
+          <div class="layer position-absolute d-flex justify-content-center align-items-center rounded-3"  (click)="showModel('./assets/port3.png')">
+            <i class="fa-solid fa-plus text-white fs-1"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="inner position-relative rounded-3 shadow">
+          <img src="./assets/port2.png" class="w-100 rounded-3" alt="" >
+          <div class="layer position-absolute d-flex justify-content-center align-items-center rounded-3" (click)="showModel('./assets/port2.png')">
+            <i class="fa-solid fa-plus text-white fs-1"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="inner position-relative rounded-3 shadow">
+          <img src="./assets/port1.png" class="w-100 rounded-3" alt="">
+          <div class="layer position-absolute d-flex justify-content-center align-items-center rounded-3"  (click)="showModel('./assets/port1.png')">
+            <i class="fa-solid fa-plus text-white fs-1"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay d-flex justify-content-center align-items-center position-fixed w-100 h-100 start-0 top-0 bg-primary bg-opacity-25" [ngClass]="{'d-none': imageUrl == ''}" (click)="closeModel()">
+      <img [src]="imageUrl" class="w-50" alt="">
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+.color{
+  background-color: #354352;
+}
+.caption{
+  background-color: #1A252F;
+}
+.iconEffect{
+  font-size: 18px;
+  margin: 4px;
+  padding: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.iconEffect:hover{
+  background-color:#fff;
+  color: #354352;
+
+}
+

@@ -1,0 +1,10 @@
+.navbar{
+  background-color: #2C3E50;
+  /* background-color: #fff; */
+}
+.active{
+  border-radius: 10%;
+  background-color: teal;
+  color: white;
+
+}

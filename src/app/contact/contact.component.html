@@ -1,0 +1,35 @@
+
+
+<section class="contact about-color d-flex justify-content-center align-items-center pt-4">
+  <div class="container ">
+    <div class="row gy-4 ">
+      <div class="col-md-12  d-flex justify-content-center align-items-center pt-xl-5">
+        <div class="inner text-center ">
+          <h2 class="fs-1 fw-bolder text-white">CONTACT COMPONENT</h2>
+          <div class="icon position-relative">
+            <i class="fa-solid fa-star fs-3 text-white star-effect text-center"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p class="text-white "*ngIf="userName != ''"> User Name : </p>
+        <input type="text" placeholder="userName: " class="form-control" [(ngModel)]="userName">
+      </div>
+      <div class="col-md-6">
+        <p class="text-white " *ngIf="userEmail != ''"> User Email : </p>
+        <input type="text" placeholder="userEmail: " class="form-control" [(ngModel)]="userEmail">
+      </div>
+      <div class="col-md-6 ">
+        <p class="text-white" *ngIf="userAge != ''"> User Age : </p>
+        <input type="text" placeholder="userAge: " class="form-control" [(ngModel)]="userAge">
+      </div>
+      <div class="col-md-6">
+        <p class="text-white" *ngIf="userPassword != ''"> User Password : </p>
+        <input type="text" placeholder="userPassword: " class="form-control" [(ngModel)]="userPassword">
+      </div>
+      <div class="col-md-12 text-center mt-3">
+        <button type="submit" class="btn btn-secondary">submit</button>
+      </div>
+    </div>
+  </div>
+</section>

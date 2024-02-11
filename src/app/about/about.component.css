@@ -1,0 +1,80 @@
+.about-color{
+  background-color: #1ABC9C;
+}
+.star-effect{
+  background-color: #1ABC9C;
+  border-radius: 50%;
+  padding: 10px;
+}
+.icon::after{
+  content: '';
+  background-color: white;
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  top: 20px;
+
+}
+.icon::before{
+  content: '';
+  background-color: white;
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  top: 20px;
+  left:105px;
+
+}
+.par-width{
+  max-width: 400px;
+}
+.about{
+  height: 95vh;
+}
+
+/*--------------------------------- media query --------------------------*/
+
+@media (min-width:500px){
+  .icon::before{
+    left:60px;
+
+  }
+}
+@media (min-width:738px){
+  .icon::before{
+    left:68px;
+  }
+}
+@media (min-width:768px){
+  .icon::before{
+    left:72px;
+  }
+}
+
+
+@media (min-width:940px){
+  .icon::before{
+    left:80px;
+
+  }
+}
+
+@media (min-width:991px){
+  .icon::before{
+    left:100px;
+
+  }
+}
+@media (min-width:1003px){
+  .icon::before{
+    left:90px;
+
+  }
+}
+@media (min-width:1020px){
+  .icon::before{
+    left:100px;
+
+  }
+}
+

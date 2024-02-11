@@ -1,0 +1,94 @@
+.about-color{
+  background-color: #1ABC9C;
+}
+.star-effect{
+  background-color: #1ABC9C;
+  border-radius: 50%;
+  padding: 10px;
+}
+.icon::after{
+  content: '';
+  background-color: white;
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  top: 20px;
+
+}
+.icon::before{
+  content: '';
+  background-color: white;
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  top: 20px;
+  left:130px;
+
+}
+.par-width{
+  max-width: 400px;
+}
+.contact{
+  height: 95vh;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.10rem #414c57;
+}
+
+/*--------------------------------- media query --------------------------*/
+
+@media (min-width:500px){
+  .icon::before{
+    left:60px;
+
+  }
+}
+@media (min-width:738px){
+  .icon::before{
+    left:68px;
+  }
+}
+@media (min-width:768px){
+  .icon::before{
+    left:72px;
+  }
+}
+
+
+@media (min-width:940px){
+  .icon::before{
+    left:80px;
+
+  }
+}
+
+@media (min-width:991px){
+  .icon::before{
+    left:100px;
+
+  }
+}
+@media (min-width:1003px){
+  .icon::before{
+    left:90px;
+
+  }
+}
+@media (min-width:1020px){
+  .icon::before{
+    left:100px;
+
+  }
+}
+
+@media (min-width:1100px){
+  .icon::before{
+    left:130px;
+
+  }
+}
